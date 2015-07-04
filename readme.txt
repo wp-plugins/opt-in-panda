@@ -7,7 +7,7 @@ Tested up to: 4.2.0
 Stable tag: trunk
 License: GPLv2
 
-Give Visitors a Strong Reason to Leave Their Emails on Your Website
+Give visitors a strong reason to leave their emails on your website by locking a piece of content behind an attractive opt-in form.
 
 == Description ==
 

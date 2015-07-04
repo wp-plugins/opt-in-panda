@@ -15,7 +15,7 @@ Give visitors a strong reason to leave their emails on your website by locking a
 >
 > Opt-In Panda locks a portion of content on a webpage by hiding it and asks the visitor to enter one's email address (opt-in) to unlock your content.
 >
-> [Screenshots](https://wordpress.org/plugins/opt-in-panda/screenshots/) | [Try Live Demo >>](http://demo.byonepress.com/free/opt-in-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo) 
+> [Screenshots](https://wordpress.org/plugins/opt-in-panda/screenshots/) | [Try Live Demo >>](http://demo.byonepress.com/free/optin-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo) 
 
 Opt-In Panda gives visitors a reason to subscribe right now in return to instant access to your valuable content (e.g. downloads, discounts, videos and so on).
 
@@ -27,13 +27,13 @@ With Opt-In Panda, you will be able:
 - Build large mailing lists on MailChimp, Aweber, GetReponse (and other services).
 - Send more emails and increase your income.
 
-<h3>Single Opt-In, Double Opt-In and Quick Email Confirmation</h3>
+<h3>Single Opt-In, Double Opt-In and Quick Email Confirmation</h3><br /><br />
 
 The plugin equally well works with Single Opt-In (without email confirmation) and Double Opt-In (with email confirmation) modes. Only you decide which mode to use.
 
 We done our best to make the Double Opt-In email confirmation process as quick and pleasant as possible.
 
-Without refreshing the page! See how it works.
+Without refreshing the page! <a href="http://demo.byonepress.com/free/optin-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo">See how it works.</a>
 
 <h3>Add Subscribers Directly To Your Favorite Mailing Service</h3>
 

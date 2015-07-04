@@ -73,7 +73,7 @@ The plugin also is packaged with the following features:
 
 * **Developer Friendly.** Use the plugin events (Unlock, Lock, Ready) and hooks for customization and creating your own extensions.
 
-> **Go Premium - Get More Emails!**
+> **Go Premium - More Subscribers & Customers**
 >
 > It's a free edition of the premium plugin <a href="http://api.byonepress.com/public/1.0/get/?product=optinpanda&utm_source=wordpress.org&utm_medium=link&utm_campaign=link">Opt-In Panda</a>. Although the free version 
 > is full-featured and you can use it without any limits, the premium version provides more features:
@@ -109,7 +109,7 @@ Use the shortcode **\[emaillocker\]** *your content* **\[/emaillocker\]** in pos
 
 == Changelog ==
 
-= 1.2.0 - 26 Jun 2013 =
+= 1.2.0 - 04 Jul 2013 =
 Initial commit.
 
 == Upgrade Notice ==

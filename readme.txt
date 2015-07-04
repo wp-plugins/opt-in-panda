@@ -11,13 +11,15 @@ Give visitors a strong reason to leave their emails on your website by locking a
 
 == Description ==
 
+> #### Boost Converting Visitors Into Subscribers & Customers
+>
+> Opt-In Panda locks a portion of content on a webpage by hiding it and asks the visitor to enter one's email address (opt-in) to unlock your content.
+>
+> [Screenshots](https://wordpress.org/plugins/opt-in-panda/screenshots/) | [Try Live Demo >>](http://demo.byonepress.com/free/opt-\in-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo) 
+
 <strong>Helps to collect emails of visitors by locking a portion of content on your website behind the beautiful opt-in form.</strong>
 
-Opt-In Panda locks a portion of content on a webpage, by hiding or blurring it, and asks the visitor to enter his email address (opt-in) to unlock your content.
-
-In other words, it gives visitors a reason to subscribe right now in return to instant access to your valuable content (e.g. downloads, discounts, videos and so on).
-
-<strong>Boost Converting Visitors Into Subscribers & Customers</strong>
+Opt-In Panda gives visitors a reason to subscribe right now in return to instant access to your valuable content (e.g. downloads, discounts, videos and so on).
 
 Hide your premium content behind an optin form and watch your email subscription rates burst through the roof. Easily create in-content freebies and serve them to your subscribers only.
 
@@ -27,11 +29,38 @@ With Opt-In Panda, you will be able:
 - Build large mailing lists on MailChimp, Aweber, GetReponse (and other services).
 - Send more emails and increase your income.
 
-<h3>Key Features</h3>
+<h3>Single Opt-In, Double Opt-In and Quick Email Confirmation</h3>
 
-The plugin is packaged with the following features:
- 
-* **Built-in Advanced Analytics.** Easily identify which lockers on which pages are out-performing others, how to optimize your lockers and what you could do differently to improve your results.
+The plugin equally well works with Single Opt-In (without email confirmation) and Double Opt-In (with email confirmation) modes. Only you decide which mode to use.
+
+We done our best to make the Double Opt-In email confirmation process as quick and pleasant as possible.
+
+Without refreshing the page! See how it works.
+
+<h3>Add Subscribers Directly To Your Favorite Mailing Service</h3>
+
+The Opt-In Panda works directly with all the major mailing services and plugins: 
+
+* Aweber
+* MailChimp
+* GetResponse
+* MyMail
+* MailPoet
+* Acumbamail
+* Sendy
+* FreshMail
+* K-news
+* SmartEmailing
+
+Moreover, the plugin saves all received email contacts locally in the database.
+
+<h3>Track Your Results with Built-in Advanced Analytics</h3>
+
+The plugin collects the full stats (impressions, conversions) on how your lockers perform on pages of your websites.
+
+Easily identify which lockers on which pages are out-performing others, how to optimize your lockers and what you could do differently to improve your results.
+
+<h3>And More Powerful Features…</h3>
 
 * **SEO Friendly.** Your locked content is still visible for search bots for better SEO by default. Of course you can turn off this feature.
 

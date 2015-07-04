@@ -19,7 +19,7 @@ Give visitors a strong reason to leave their emails on your website by locking a
 
 Opt-In Panda gives visitors a reason to subscribe right now in return to instant access to your valuable content (e.g. downloads, discounts, videos and so on).
 
-Hide your premium content behind an optin form and watch your email subscription rates burst through the roof. Easily create in-content freebies and serve them to your subscribers only.
+Hide your premium content behind an optin form (subscription widget) and watch your email subscription rates burst through the roof. Easily create in-content freebies and serve them to your subscribers only.
 
 With Opt-In Panda, you will be able:
 

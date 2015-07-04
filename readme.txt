@@ -1,7 +1,7 @@
 === OnePress Opt-In Panda ===
 Contributors: OnePressMedia
 Donate link: http://onepress-media.com/portfolio
-Tags: content locker, opt-in locker, optin form, subscribtion widget, popup, mailchimp, aweber, getresponse, sendy, mailpoet, mymail, freshmail
+Tags: locker, optin, leads, subscribe, popup, mailchimp, mailchimp widget, aweber, aweber widget, getresponse, getresponse widget, sendy, sendy widget, mailpoet, mailpoet widget, mymail, mymail widget, freshmail, freshmail widget, email, marketing, newsletter, signup, widget, knews, acumbamail, acumbamail wdiget, form
 Requires at least: 3.2
 Tested up to: 4.2.0
 Stable tag: trunk

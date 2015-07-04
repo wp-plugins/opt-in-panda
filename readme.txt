@@ -80,7 +80,7 @@ The plugin also is packaged with the following features:
 
 > * Custom Fields
 > * Export Leads In CSV
-> * More Extra Themes
+> * 2 Extra Themes
 > * Content Blurring
 > * 8 Advanced Visability Options
 > * Hide Lockers For Registered Users

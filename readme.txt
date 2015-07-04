@@ -58,14 +58,14 @@ The plugin collects the full stats (impressions, conversions) on how your locker
 
 Easily identify which lockers on which pages are out-performing others, how to optimize your lockers and what you could do differently to improve your results.
 
-<h3>Other Powerful Features</h3>
+<h3>Other Key Features</h3>
 The plugin also is packaged with the following features:
 
 * **SEO Friendly.** Your locked content is still visible for search bots for better SEO by default. Of course you can turn off this feature.
 
 * **4 Types of Locks.** Lock any content manually via shortcodes or setup batch lock via one of 3 powerful modes (“Skip & Lock”, “More Tag”, “CSS Selector”).
 
-* **Visual Composer.** The Social Locker is fully compatible with the Visual Composer.
+* **Visual Composer.** The Opt-In Panda is fully compatible with the Visual Composer.
 
 * **Optimized For Mobile.** We have adapted the plugin for mobile devices. Mobile users can obtain access to your locked content as well as desktop users.
 

@@ -35,7 +35,7 @@ We done our best to make the Double Opt-In email confirmation process as quick a
 
 Without refreshing the page! <a href="http://demo.byonepress.com/free/optin-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo">See how it works.</a>
 
-<p><h3>Add Subscribers Directly To Your Favorite Mailing Service</h3></p>
+<h3>Add Subscribers Directly To Your Favorite Mailing Service</h3>
 
 The Opt-In Panda works directly with all the major mailing services and plugins: 
 
@@ -52,13 +52,13 @@ The Opt-In Panda works directly with all the major mailing services and plugins:
 
 Moreover, the plugin saves all received email contacts locally in the database.
 
-<p><h3>Track Your Results with Built-in Advanced Analytics</h3></p>
+<h3>Track Your Results with Built-in Advanced Analytics</h3>
 
 The plugin collects the full stats (impressions, conversions) on how your lockers perform on pages of your websites.
 
 Easily identify which lockers on which pages are out-performing others, how to optimize your lockers and what you could do differently to improve your results.
 
-<p><h3>Other Powerful Features</h3></p>
+<h3>Other Powerful Features</h3>
 
 * **SEO Friendly.** Your locked content is still visible for search bots for better SEO by default. Of course you can turn off this feature.
 

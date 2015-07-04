@@ -1,0 +1,465 @@
+/**
+ * CSS for the metabox "Subscription Options"
+ * 
+ * @author Paul Kashtanoff <paul@byonepress.com>
+ * @copyright (c) 2015, OnePress Ltd
+ * 
+ * @package optinpanda 
+ * @since 1.0.0
+ */
+
+#OPanda_SubscriptionOptionsMetaBox {
+    display: block;
+}
+#OPanda_SubscriptionOptionsMetaBox select {
+    width: auto;
+}
+
+
+/** ---
+* Subscribe Buttons Options
+*/
+
+#OPanda_SubscriptionOptionsMetaBox {
+    background: #f6f6f6;
+}
+#OPanda_SubscriptionOptionsMetaBox .inside,
+#OPanda_SubscriptionOptionsMetaBox .factory-form-metabox {
+    padding-bottom: 0px;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .control-group {
+    max-width: 700px !important;
+}
+#OPanda_SubscriptionOptionsMetaBox select {
+    width: auto;
+}
+#OPanda_SubscriptionOptionsMetaBox .opanda-options-wrap {
+    padding: 35px 24px 20px 24px;
+}
+
+#OPanda_SubscriptionOptionsMetaBox  .factory-control-subscribe_mode select {
+    display: inline-block;
+    vertical-align: top;
+}
+.factory-control-subscribe_mode .factory-hints,
+.factory-control-signup_mode .factory-hints {
+    vertical-align: top;
+    color: #737373;
+    width: auto;
+    max-width: 500px;
+    position: relative;
+    top: -1px;
+    border-left: 1px solid #999;
+    padding: 0 0 0 9px;
+    margin: 10px 0 0 5px;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .factory-separator {
+    border-top: 1px solid #e1e1e1;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .factory-control-subscribe_social_buttons {
+    overflow: visible;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .factory-from-control-textbox {
+    width: 220px;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .factory-hints {
+    vertical-align: top;
+    color: #737373;
+    width: auto;
+    max-width: 520px;
+    position: relative;
+    top: -1px;
+    border-left: 1px solid #999;
+    padding: 0 0 0 9px;
+    margin: 10px 0 0 5px;
+    background: transparent;
+}
+#OPanda_SubscriptionOptionsMetaBox .factory-control-form_type .factory-hints {
+    margin-top: 5px;
+    display: inline-block;
+    background-color: #ffffdd;
+    padding: 1px 5px;
+    border-left: 0px;
+}
+#OPanda_SubscriptionOptionsMetaBox .factory-hints .factory-hint {
+    background: transparent;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .factory-dropdown .factory-buttons-group,
+#OPanda_SubscriptionOptionsMetaBox .factory-bootstrap-329 .factory-buttons-way {
+  border-color: #eee;
+}
+
+#OPanda_SubscriptionOptionsMetaBox .factory-control-form_type {
+    margin-top: 20px;
+}
+
+/**
+* Fields Editor
+*/ 
+
+#opanda-fields-editor {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+#opanda-fields-editor.control-group {
+    max-width: none !important;
+}
+#opanda-fields-editor .table-wrap {
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 3px solid #f9f9f9;
+}
+#opanda-fields-editor .table {
+    margin-bottom: 0px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+      box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+#opanda-fields-editor .table td,
+#opanda-fields-editor .table th {
+    padding: 13px;
+}
+#opanda-fields-editor .table td {
+    border: 0px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+#opanda-fields-editor .table tr:first-child td {
+    padding-top: 13px;
+}
+#opanda-fields-editor .table tr:last-child td {
+    padding-bottom: 13px;
+}
+#opanda-fields-editor .table th {
+    border-bottom: 1px solid #f4f4f4;
+    white-space: nowrap;
+}
+#opanda-fields-editor .table td + td,
+#opanda-fields-editor .table th + th {
+    padding-left: 0px;
+}
+#opanda-fields-editor .opanda-min {
+    width: 1%;
+}
+#opanda-fields-editor .opanda-label {
+    padding-left: 13px !important;
+}
+#opanda-fields-editor .opanda-gray {
+    background-color: #fafafa;
+}
+
+#opanda-fields-editor .form-control {
+    height: 31px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#opanda-fields-editor select.form-control {
+    padding-top: 4px;
+}
+#opanda-fields-editor .table th span {
+    display: inline-block; 
+    padding-top: 5px;
+}
+#opanda-fields-editor .table .opanda-th-hint {
+    background: url('../img/help.png') no-repeat 0 0 transparent;
+    margin-left: 3px;
+    opacity: 0.55;
+    position: relative;
+    height: 14px;
+    width: 13px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: help;
+    vertical-align: middle;
+    top: -1px;
+}
+
+#opanda-fields-editor .table input[type=text],
+#opanda-fields-editor .table textarea,
+#opanda-fields-editor .table select { 
+    box-shadow: none;
+    border-radius: 0px;
+}
+#opanda-fields-editor .table select:disabled,
+#opanda-fields-editor .table select[disabled],
+#opanda-fields-editor .table input[type=text]:disabled,
+#opanda-fields-editor .table input[type=text][disabled] {
+    background-color: #fafafa;
+    cursor: default;
+}
+
+/* Column :: Drag & Drop */
+
+#opanda-fields-editor .opanda-drag {
+    border-right: 1px solid #f3f3f3;
+}
+#opanda-fields-editor td.opanda-drag {
+    width: 40px;
+    background-image: url("../img/drag.png");
+    background-position: 50% 16px;
+    background-repeat: no-repeat;
+    cursor: move;
+
+    border-right: 1px solid #f3f3f3;
+}
+#opanda-fields-editor .table tr:first-child td.opanda-drag {
+    background-position: 50% 23px;
+}
+#opanda-fields-editor th.opanda-drag {
+    border-bottom: 1px solid #f1f1f1;
+}
+#opanda-fields-editor td.opanda-drag:hover {
+    background-image: url("../img/drag-hover.png") !important;
+}
+
+/* Column :: Field Label */
+
+#opanda-fields-editor .table .opanda-label {
+    width: 180px;
+    padding-left: 13px !important;
+    border-left: 1px solid #f3f3f3 !important;
+}
+
+/* Column :: Mapping */
+
+#opanda-fields-editor .table .opanda-mapping {
+    padding-left: 13px !important;
+    border-left: 1px solid #f3f3f3 !important;
+    white-space: nowrap;
+}
+#opanda-fields-editor .table .opanda-mapping select {
+    display: inline-block;
+}
+#opanda-fields-editor .table .opanda-mapping .opanda-popup-hint-icon  {
+    margin-left: 8px;
+}
+
+/* Column :: Type */
+
+#opanda-fields-editor .table .opanda-type {
+    padding-left: 13px !important;
+    border-left: 1px solid #f3f3f3 !important;
+    white-space: nowrap;
+}
+#opanda-fields-editor .table .opanda-type select {
+    min-width: 120px;
+    display: inline-block;
+}
+#opanda-fields-editor .table .opanda-type .opanda-popup-hint-icon  {
+    margin-left: 8px;
+}
+#opanda-fields-editor .table .opanda-type .opanda-unsupported {
+    background-color: #fff0f0;
+    border: 1px solid #cc6969;
+}
+#opanda-fields-editor .table .opanda-type-separator,
+#opanda-fields-editor .table .opanda-type-label,
+#opanda-fields-editor .table .opanda-type-html {
+    background: url("../img/stripe.png");
+}
+
+/* Column :: Icon */
+
+#opanda-fields-editor .table .opanda-icon {
+    padding-left: 13px !important;
+}
+#opanda-fields-editor .table .opanda-icon select,
+#opanda-fields-editor .table .opanda-icon select option { 
+  font-family: FontAwesome;
+  padding-left: 1px;
+  padding-right: 0px;
+}
+
+/* Column :: Control */
+
+#opanda-fields-editor .opanda-control {
+    white-space: nowrap;
+    padding-left: 13px !important;
+    border-left: 1px solid #f3f3f3 !important;
+}
+
+/**
+* Options
+*/
+
+#opanda-fields-editor .opanda-options-templates {
+    display: none; 
+}
+
+/* Options :: Container */
+
+#opanda-fields-editor .opanda-field-options {
+    background-color: #fafafa;
+    border-bottom: 1px solid #f1f1f1;
+}
+#opanda-fields-editor .opanda-field-options + .opanda-item td {
+    padding-top: 13px;
+}
+#opanda-fields-editor .opanda-item.opanda-padding-bottom td {
+    padding-bottom: 13px; 
+}
+#opanda-fields-editor .opanda-field-options td {
+    padding: 0px;
+    padding-bottom: 0 !important;
+}
+#opanda-fields-editor .opanda-field-options .opanda-container {
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.1);
+    padding: 35px 15px 15px 15px;
+    background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
+}
+#opanda-fields-editor .opanda-field-options .opanda-container:before {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    content: " ";
+    width: 20px; height: 20px;
+    top: -14px; left: 65px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#opanda-fields-editor .opanda-field-options hr {
+    margin-right: 200px;
+}
+#opanda-fields-editor .opanda-field-options .opanda-container:after {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    content: " ";
+    background: url("../img/gear-bg.png") top left no-repeat;
+    height: 328px;
+    width: 328px;
+    bottom: -150px;
+    right: -70px;
+}
+
+#opanda-fields-editor .opanda-can-notice .alert {
+    max-width: 470px;
+    margin-top: 0px;
+}
+
+/* Options :: Forms */
+
+#opanda-fields-editor .opanda-options .form-control {
+    max-width: 300px;
+}
+#opanda-fields-editor .opanda-options textarea.form-control {
+    max-width: 400px;
+    min-height: 100px;
+}
+#opanda-fields-editor .opanda-options .help-block {
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Options :: Choices Editor */
+
+.opanda-choices-editor .opanda-choice-item .form-control {
+    display: inline-block;
+    max-width: 150px !important;
+}
+.opanda-choices-editor .opanda-choice-item {
+    margin-bottom: 5px;
+}
+.opanda-choices-editor .opanda-choices-controls {
+    padding-top: 5px;
+}
+.opanda-choices-editor .opanda-choice-item-template {
+    display: none;
+}
+
+/* Options :: Checkbox Options */
+
+#opanda-fields-editor .opanda-checkbox-options .control-label {
+    max-width: 300px !important;
+}
+#opanda-fields-editor .opanda-checkbox-options .opanda-marked-value-input,
+#opanda-fields-editor .opanda-checkbox-options .opanda-unmarked-value-input {
+    max-width: 150px;
+}
+#opanda-fields-editor .opanda-checkbox-options .col-sm-2 {
+    width: 20%;
+}
+#opanda-fields-editor .opanda-checkbox-options .col-sm-10 {
+    width: 75%;
+}
+
+/**
+* Hints
+*/
+
+.opanda-popup-hint-icon {
+    background: url('../img/help.png') no-repeat 0 0 transparent;
+    margin-left: 3px;
+    opacity: 0.55;
+    position: relative;
+    height: 14px;
+    width: 13px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: help;
+    vertical-align: middle;
+    top: -1px;
+}
+.opanda-popup-hint {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: rgba(0,0,0,0.8);
+    white-space: normal;
+    z-index: 10;
+    padding: 10px 12px 12px 12px;
+    font-weight: normal;
+    line-height: 150%;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.opanda-popup-hint a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/**
+* Errors
+*/
+
+.opanda-error {
+    background-color: rgba(0,0,0,0.8);
+    white-space: normal;
+    z-index: 10;
+    font-weight: normal;
+    line-height: 150%;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 5px 11px 4px 11px;
+    max-width: none;
+    margin-right: 4px;
+    position: relative;
+    top: -10px;
+}
+.opanda-error a {
+    color: #fff !important;
+    font-weight: bold;
+}
+.opanda-error-text {
+    margin-left: 3px;
+}

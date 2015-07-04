@@ -17,8 +17,6 @@ Give visitors a strong reason to leave their emails on your website by locking a
 >
 > [Screenshots](https://wordpress.org/plugins/opt-in-panda/screenshots/) | [Try Live Demo >>](http://demo.byonepress.com/free/opt-in-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo) 
 
-<strong>Helps to collect emails of visitors by locking a portion of content on your website behind the beautiful opt-in form.</strong>
-
 Opt-In Panda gives visitors a reason to subscribe right now in return to instant access to your valuable content (e.g. downloads, discounts, videos and so on).
 
 Hide your premium content behind an optin form and watch your email subscription rates burst through the roof. Easily create in-content freebies and serve them to your subscribers only.

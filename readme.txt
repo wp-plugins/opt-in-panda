@@ -15,7 +15,7 @@ Give visitors a strong reason to leave their emails on your website by locking a
 >
 > Opt-In Panda locks a portion of content on a webpage by hiding it and asks the visitor to enter one's email address (opt-in) to unlock your content.
 >
-> [Screenshots](https://wordpress.org/plugins/opt-in-panda/screenshots/) | [Try Live Demo >>](http://demo.byonepress.com/free/opt-\in-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo) 
+> [Screenshots](https://wordpress.org/plugins/opt-in-panda/screenshots/) | [Try Live Demo >>](http://demo.byonepress.com/free/opt-in-panda-for-wordpress/?utm_source=wordpress.org&utm_medium=link&utm_campaign=demo) 
 
 <strong>Helps to collect emails of visitors by locking a portion of content on your website behind the beautiful opt-in form.</strong>
 

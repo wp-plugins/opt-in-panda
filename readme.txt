@@ -27,7 +27,7 @@ With Opt-In Panda, you will be able:
 - Build large mailing lists on MailChimp, Aweber, GetReponse (and other services).
 - Send more emails and increase your income.
 
-<h3>Single Opt-In, Double Opt-In and Quick Email Confirmation</h3><br />
+<h3>Single Opt-In, Double Opt-In and Quick Email Confirmation</h3>
 
 The plugin equally well works with Single Opt-In (without email confirmation) and Double Opt-In (with email confirmation) modes. Only you decide which mode to use.
 
@@ -59,6 +59,7 @@ The plugin collects the full stats (impressions, conversions) on how your locker
 Easily identify which lockers on which pages are out-performing others, how to optimize your lockers and what you could do differently to improve your results.
 
 <h3>Other Powerful Features</h3>
+The plugin also is packaged with the following features:
 
 * **SEO Friendly.** Your locked content is still visible for search bots for better SEO by default. Of course you can turn off this feature.
 

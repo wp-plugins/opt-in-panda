@@ -117,7 +117,7 @@ Use the shortcode **\[emaillocker\]** *your content* **\[/emaillocker\]** in pos
 <p><strong>Important:</strong> if you use CDN, please purge your CDN after installing this update.</p>
 
 <strong>1.2.0 - 04 Jul 2013</strong>
-Initial release.
+<p>Initial release.</p>
 
 == Upgrade Notice ==
 

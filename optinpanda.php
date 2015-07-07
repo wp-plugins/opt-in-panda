@@ -4,7 +4,7 @@ Plugin Name: Opt-In Panda | BizPanda
 Plugin URI: http://api.byonepress.com/public/1.0/get/?product=optinpanda
 Description: Opt-In Panda is a lead-generation that motivates visitors to opt-in in return to access your premium content (e.g. downloads, discounts, videos and so on).
 Author: OnePress
-Version: 1.2.0
+Version: 1.2.1
 Author URI: http://byonepress.com
 */
 
@@ -48,7 +48,7 @@ function onp_op_init_bizpanda( $activationHook = false ) {
     $optinpanda = new Factory325_Plugin(__FILE__, array(
         'name'          => 'optinpanda',
         'title'         => 'Opt-In Panda',
-        'version'       => '1.2.0',
+        'version'       => '1.2.1',
         'assembly'      => 'free',
         'lang'          => 'en_US',
         'api'           => 'http://api.byonepress.com/1.1/',

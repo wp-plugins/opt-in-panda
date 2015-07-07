@@ -238,9 +238,9 @@ class OPanda_SocialSettings extends OPanda_Settings  {
             $options[] = array(
                 'type'      => 'textbox',
                 'name'      => 'linkedin_api_key',
-                'title'     => __( 'LinkedIn API Key', 'bizpanda' ),
-                'after'     => sprintf( __( '<a href="%s" class="btn btn-default">Get API Key</a>', 'bizpanda' ), admin_url('admin.php?page=how-to-use-' . $this->plugin->pluginName . '&onp_sl_page=linkedin-api-key') ),
-                'hint'      => sprintf( __( 'If you want to use the LinkedIn Sign-In button, please <a href="%s">get a API Key</a> for your website.', 'bizpanda' ), admin_url('admin.php?page=how-to-use-' . $this->plugin->pluginName . '&onp_sl_page=linkedin-api-key') )
+                'title'     => __( 'LinkedIn Client ID', 'bizpanda' ),
+                'after'     => sprintf( __( '<a href="%s" class="btn btn-default">Get Client ID</a>', 'bizpanda' ), admin_url('admin.php?page=how-to-use-' . $this->plugin->pluginName . '&onp_sl_page=linkedin-api-key') ),
+                'hint'      => sprintf( __( 'If you want to use the LinkedIn Sign-In button, please <a href="%s">get a Client ID</a> for your website.', 'bizpanda' ), admin_url('admin.php?page=how-to-use-' . $this->plugin->pluginName . '&onp_sl_page=linkedin-api-key') )
             );
         }
         

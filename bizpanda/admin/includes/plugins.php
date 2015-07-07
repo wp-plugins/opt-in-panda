@@ -4,6 +4,16 @@ class OPanda_Plugins {
     
     public static function getAll() {
         $items = array();
+
+        $items[] = array(
+            'name' => 'optinpanda',
+            'type' => 'free',
+            'title' => __('Opt-In Panda', 'bizpanda'),
+            'description' => __('<p>Get more email subscribers the most organic way without tiresome popups.</p><p>Opt-In Panda locks a portion of content on a webpage behind an attractive opt-in form.</p>', 'opanda'),
+            'url' => 'https://wordpress.org/plugins/opt-in-panda/',
+            'tags' => array('social', 'subscribers'),
+            'pluginName' => 'optinpanda'
+        );
         
         $items[] = array(
             'name' => 'optinpanda',
@@ -14,15 +24,15 @@ class OPanda_Plugins {
             'tags' => array('social', 'subscribers'),
             'pluginName' => 'optinpanda'
         );
-        
+
         $items[] = array(
-            'name' => 'optinpanda',
+            'name' => 'sociallocker',
             'type' => 'free',
-            'title' => __('Opt-In Panda', 'bizpanda'),
-            'description' => __('<p>Get more email subscribers the most organic way without tiresome popups.</p><p>Also extends the Sign-In Locker by adding the subscription features.</p>', 'opanda'),
-            'url' => 'http://api.byonepress.com/public/1.0/get/?product=optinpanda',
-            'tags' => array('social', 'subscribers'),
-            'pluginName' => 'optinpanda'
+            'title' => __('Social Locker (Plugin)', 'bizpanda'),
+            'description' => __('<p>Helps to attract social traffic and improve spreading your content in social networks.</p>', 'bizpanda'),
+            'url' => 'https://wordpress.org/plugins/social-locker/',
+            'tags' => array('social', 'subscribers', 'sociallocker-ads'),
+            'pluginName' => 'sociallocker-next'
         );
         
         $items[] = array(
@@ -35,16 +45,6 @@ class OPanda_Plugins {
             'tags' => array('social', 'subscribers', 'sociallocker-ads'),
             'pluginName' => 'sociallocker-next'
         ); 
-        
-        $items[] = array(
-            'name' => 'sociallocker',
-            'type' => 'free',
-            'title' => __('Social Locker (Plugin)', 'bizpanda'),
-            'description' => __('<p>Helps to attract social traffic and improve spreading your content in social networks.</p>', 'bizpanda'),
-            'url' => 'https://wordpress.org/plugins/social-locker/',
-            'tags' => array('social', 'subscribers', 'sociallocker-ads'),
-            'pluginName' => 'sociallocker-next'
-        );
         
         $items[] = array(
             'name' => 'mashshare',
@@ -95,8 +95,12 @@ class OPanda_Plugins {
         // suggests premium version of free plugins
         
         $plugins = BizPanda::getInstalledPlugins();
+        $hasPremium = false;
+        
         foreach( $plugins as $plugin ) {
-
+            
+            if ( 'premium' === $plugin['type'] ) $hasPremium = true;
+            
             $pluginInfo = self::getPluginInfo($plugin['name'], $plugin['type']);
             if ( !empty( $pluginInfo ) && isset( $pluginInfo['tags'] ) ) {
                 $existingTags = array_merge( $existingTags, $pluginInfo['tags'] );
@@ -113,7 +117,7 @@ class OPanda_Plugins {
             $suggestions[] = $pluginInfo;
             $added[] = $plugin['name'];
         }
-        
+
         // adds installed plugins
         
         foreach( $plugins as $plugin ) {
@@ -126,6 +130,9 @@ class OPanda_Plugins {
         $all = self::getAll();
 
         foreach( $all as $item ) {
+            
+            if ( $hasPremium && 'premium' !== $item['type'] ) continue;
+            
             if ( in_array( $item['name'], $added ) ) continue;
             if ( !isset( $item['tags'] ) ) continue;
 

@@ -25,7 +25,7 @@ class OPanda_PremiumPage extends FactoryPages321_AdminPage  {
     
     public function fixMenuTitle() {
         if ( BizPanda::isSinglePlugin() ) return __('Go Premium', 'optinpanda');
-        return __('Opt-In Panda Pro', 'optinpanda');
+        return __('<span class="factory-fontawesome-320"><i class="fa fa-star-o" style="margin-right: 5px;"></i>Opt-In Panda</span>', 'optinpanda');
     }
   
     public function assets($scripts, $styles) {
@@ -55,6 +55,7 @@ class OPanda_PremiumPage extends FactoryPages321_AdminPage  {
         ?>
 
         <style>
+            /**
             .onp-how-comparation .onp-how-group {
                 background-color: transparent;
             }
@@ -95,7 +96,7 @@ class OPanda_PremiumPage extends FactoryPages321_AdminPage  {
                 background: #ffdc55;
                 border-color: #e0b854;
             }
-            
+            */
         </style>
 
         <div class="wrap factory-bootstrap-329 factory-fontawesome-320">
@@ -168,7 +169,7 @@ class OPanda_PremiumPage extends FactoryPages321_AdminPage  {
                         <td class="onp-how-yes onp-how-premium"><strong>yes</strong></td>   
                     </tr>           
                     <tr>
-                        <td class="onp-how-title">Export Emails in CSV <i class="fa fa-star-o"></i></td>
+                        <td class="onp-how-title"><strong>Export Emails in CSV</strong> <i class="fa fa-star-o"></i></td>
                         <td class="onp-how-no">-</td>
                         <td class="onp-how-yes onp-how-premium"><strong>yes</strong></td>   
                     </tr> 

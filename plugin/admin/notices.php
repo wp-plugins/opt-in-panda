@@ -31,32 +31,63 @@ function onp_op_admin_premium_notices( $notices ) {
     
     // shows every 7 days
     if ( ( time() - $lastCloase > 60*60*7 ) || $forceToShowNotices ) {
-        
-            $notices[] = array(
-                'id'        => 'onp-op-offer-to-purchase',
+            
+            if ( !$alreadyActivated ) { 
+                
+                $notices[] = array(
+                    'id'        => 'onp-op-offer-to-purchase',
 
-                'class'     => 'call-to-action ',
-                'icon'      => 'fa fa-arrow-circle-o-up',
-                'header'    => '<span class="onp-hightlight">' . $header . '</span>',
-                'message'   => $message,   
-                'plugin'    => $optinpanda->pluginName,
-                'where'     => array('plugins','dashboard', 'edit'),
+                    'class'     => 'call-to-action ',
+                    'icon'      => 'fa fa-arrow-circle-o-up',
+                    'header'    => '<span class="onp-hightlight">' . $header . '</span>',
+                    'message'   => $message,   
+                    'plugin'    => $optinpanda->pluginName,
+                    'where'     => array('plugins','dashboard', 'edit'),
 
-                // buttons and links
-                'buttons'   => array(
-                    array(
-                        'title'     => '<i class="fa fa-arrow-circle-o-up"></i> ' . __('Learn More & Upgrade', 'optinpanda'),
-                        'class'     => 'button button-primary',
-                        'action'    => onp_licensing_325_get_purchase_url( $optinpanda )
-                    ),
-                    array(
-                        'title'     => __('No, thanks, not now', 'optinpanda'),
-                        'class'     => 'button',
-                        'action'    => 'x'
+                    // buttons and links
+                    'buttons'   => array(
+                        array(
+                            'title'     => '<i class="fa fa-arrow-circle-o-up"></i> ' . __('Activate Premium', 'optinpanda'),
+                            'class'     => 'button button-primary',
+                            'action'    => onp_licensing_325_manager_link($optinpanda->pluginName, 'activateTrial', false)
+                        ),
+                        array(
+                            'title'     => __('No, thanks, not now', 'plugin-sociallocker'),
+                            'class'     => 'button',
+                            'action'    => 'x'
+                        )
                     )
-                )
-            ); 
+                ); 
+                    
+            } else {
+                
+                $notices[] = array(
+                    'id'        => 'onp-op-offer-to-purchase',
+
+                    'class'     => 'call-to-action ',
+                    'icon'      => 'fa fa-arrow-circle-o-up',
+                    'header'    => '<span class="onp-hightlight">' . $header . '</span>',
+                    'message'   => $message,   
+                    'plugin'    => $optinpanda->pluginName,
+                    'where'     => array('plugins','dashboard', 'edit'),
+
+                    // buttons and links
+                    'buttons'   => array(
+                        array(
+                            'title'     => '<i class="fa fa-arrow-circle-o-up"></i> ' . __('Learn More & Upgrade', 'optinpanda'),
+                            'class'     => 'button button-primary',
+                            'action'    => onp_licensing_325_get_purchase_url( $optinpanda )
+                        ),
+                        array(
+                            'title'     => __('No, thanks, not now', 'optinpanda'),
+                            'class'     => 'button',
+                            'action'    => 'x'
+                        )
+                    )
+                ); 
         
+            }
+
         
 
     }

@@ -109,8 +109,16 @@ Use the shortcode **\[emaillocker\]** *your content* **\[/emaillocker\]** in pos
 
 == Changelog ==
 
+= 1.2.1 - 07 Jul 2013 =
+<strong>v.1.2.1 - 7 Jul 2015</strong><br />
+<ul>
+<li>FIXED: A set of minor bugs.</li>
+</ul>
+
+<p><strong>Important:</strong> if you use CDN, please purge your CDN after installing this update.</p>
+
 = 1.2.0 - 04 Jul 2013 =
-Initial commit.
+Initial release.
 
 == Upgrade Notice ==
 

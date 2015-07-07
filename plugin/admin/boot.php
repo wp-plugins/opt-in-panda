@@ -611,10 +611,7 @@ function optinpanda_icon_admin_assets( $hook ) {
         ?>
         <style>
             #menu-posts-opanda-item a[href*="premium-optinpanda"] {
-                color: #edd578 !important;
-            }
-            .admin-color-light #menu-posts-opanda-item a[href*="premium-optinpanda"] {
-                color: #b47e42 !important;
+                color: #43b8e3 !important;
             }
         </style>
         <?php
@@ -687,7 +684,7 @@ add_action('opanda_help_page_optinpanda', 'opanda_help_page_optinpanda');
  * @return bool true
  */
 function optinpanda_make_internal_license_manager( $internal ) {
-
+    
     if ( BizPanda::isSinglePlugin() ) return $internal;
     return true;
 }

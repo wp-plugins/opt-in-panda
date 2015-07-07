@@ -439,7 +439,9 @@ class OPanda_AssetsManager {
     public static function getLockerOptions( $lockerId ) {
 
         if ( isset( self::$_lockerOptions[$lockerId] ) ) return self::$_lockerOptions[$lockerId];
+        
         $options = get_post_meta($lockerId, '');
+        if ( empty($options) ) return $options;
         
         $real = array();
         foreach($options as $key => $values) {

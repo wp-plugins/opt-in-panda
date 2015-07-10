@@ -25,7 +25,7 @@ With Opt-In Panda, you will be able:
 
 - Effectively and easily convert visitors into subscribers.
 - Build large mailing lists on MailChimp, Aweber, GetReponse (and other services).
-- Send more emails and increase your income.
+- Send more emails and increase your income. 
 
 <h3>Single Opt-In, Double Opt-In and Quick Email Confirmation</h3>
 
